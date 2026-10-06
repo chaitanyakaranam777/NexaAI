@@ -1,0 +1,15 @@
+### Health
+GET http://localhost:8000/api/health
+
+### Models
+GET http://localhost:8000/api/models
+
+### Chat
+POST http://localhost:8000/api/chat
+Content-Type: application/json
+
+{
+  "message": "Explain event-driven architecture in 5 bullets.",
+  "provider": "demo",
+  "model": "nexa-demo"
+}
